@@ -21,6 +21,8 @@ sudo sed -i.bak 's/ENABLED=0/ENABLED=1/' /etc/default/{i8kmon,i8kbuttons}
 
 Ubuntu: sudo apt-get install sensors
 
+You have to check sensors command to see it shows cpu heat.
+
 ###**Installation**
 
 If you want to run your cron job for all users you must open crontab with root user.

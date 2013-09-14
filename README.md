@@ -17,6 +17,10 @@ Ubuntu: sudo apt-get install i8kctl
 
 sudo sed -i.bak 's/ENABLED=0/ENABLED=1/' /etc/default/{i8kmon,i8kbuttons}
 
+4) You must have sensors
+
+Ubuntu: sudo apt-get install sensors
+
 ###**Installation**
 
 If you want to run your cron job for all users you must open crontab with root user.

@@ -31,6 +31,6 @@ sudo crontab -e
 
 Then add this line;
 
-01 * * * * sh /path/to/script/del-fan-cron.sh
+*/1 * * * * sh /path/to/script/del-fan-cron.sh
 
 **Note:** I'm using Dell Inspiron 5110 and it has only right fan. So i didn't manage second fan. If your laptop has second fan, you must edit this script.

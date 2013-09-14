@@ -6,10 +6,15 @@ This script written for Dell Inspiron Laptops. In my laptop CPU Fan is allways r
 ###**Requirements** 
 
 1) You must have loaded the i8k module
+
 Ubuntu: sudo modprobe -v i8k
+
 2) You must also install i8kctl
+
 Ubuntu: sudo apt-get install i8kctl
-3) After Installing i8kctl you must run this line: 
+
+3) After Installing i8kctl you must run this line:
+
 sudo sed -i.bak 's/ENABLED=0/ENABLED=1/' /etc/default/{i8kmon,i8kbuttons}
 
 ###**Installation**
